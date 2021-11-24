@@ -44,7 +44,7 @@ while(VideoCap.isOpened()):
     label = f'{class_names[classid]} : {score:.2f}'
     cv2.rectangle(frame, box, color, 2)
     cv2.putText(frame, label, (box[0], box[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
-    cv2.putText(frame, f'FPS: {fps}', (7, 70), 1, 3, (100, 255, 0), 3, cv2.LINE_AA)
+  cv2.putText(frame, f'FPS: {fps}', (7, 70), 1, 3, (100, 255, 0), 3, cv2.LINE_AA)
   
   cv2.imshow('Frame', frame)
   if cv2.waitKey(1) & 0xFF == ord('q'):
