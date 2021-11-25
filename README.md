@@ -15,8 +15,11 @@ $ sudo apt autoclean
 $ sudo apt -f install
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
 $ ubuntu-drivers devices
-$ sudo ubuntu-drivers autoinstall
+$ sudo ubuntu-drivers autoinstall or $ sudo apt install nvidia-drivers-[Recommended driver]
+$ sudo reboot
 ```
+Complete guide: https://phoenixnap.com/kb/install-nvidia-drivers-ubuntu
+
 ## CUDA Toolkit
 #### Check if it is already installed 
 ```
