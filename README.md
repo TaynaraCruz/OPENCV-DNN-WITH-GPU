@@ -27,6 +27,15 @@ $ nvcc --version
 ```
 #### Download & install
 https://developer.nvidia.com/cuda-toolkit
+```
+$ nano ~/.bashrc
+```
+```
+export PATH=$PATH:/usr/local/cuda-11.5/bin
+export LD_LIBRARY_PATH=/usr/local/cuda-11.5/lib64:$LD_LIBRARY_PATH
+export CUDADIR=/usr/local/cuda-11.5
+```
+
 
 ## CUDNN
 #### Download
